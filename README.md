@@ -2,11 +2,15 @@
 
 [![Build Status](https://travis-ci.org/geerlingguy/awx-container.svg?branch=master)](https://travis-ci.org/geerlingguy/awx-container) [![](https://images.microbadger.com/badges/image/geerlingguy/awx_web.svg)](https://microbadger.com/images/geerlingguy/awx_web "Get your own image badge on microbadger.com") [![](https://images.microbadger.com/badges/image/geerlingguy/awx_task.svg)](https://microbadger.com/images/geerlingguy/awx_task "Get your own image badge on microbadger.com")
 
+
+
 This project is in its early stages. _There will be bugs!_
 
 This project is composed of three main parts:
 
-  - **Ansible Container project**: This project is maintained on GitHub: [geerlingguy/awx-container](https://github.com/geerlingguy/awx-container). Please file issues, support requests, etc. against this GitHub repository.
+[![Try in PWD](https://cdn.rawgit.com/play-with-docker/stacks/cff22438/assets/images/button.png)](http://labs.play-with-docker.com?stack=https://raw.githubusercontent.com/geerlingguy/awx-container/master/docker-compose.yml&stack_name=func)
+
+- **Ansible Container project**: This project is maintained on GitHub: [geerlingguy/awx-container](https://github.com/geerlingguy/awx-container). Please file issues, support requests, etc. against this GitHub repository.
   - **Docker Hub Image**: If you just want to use [`geerlingguy/awx_web`](https://hub.docker.com/r/geerlingguy/awx_web/) and [`geerlingguy/awx_task`](https://hub.docker.com/r/geerlingguy/awx_task/) in your project, you can pull it from Docker Hub.
   - **Ansible Role**: If you need an Ansible role to build AWX, check out [`geerlingguy.awx`](https://galaxy.ansible.com/geerlingguy/awx/) on Ansible Galaxy. (This is the Ansible role that does the bulk of the work in managing the AWX container.)
 
